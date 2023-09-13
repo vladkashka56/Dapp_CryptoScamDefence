@@ -1,0 +1,25 @@
+stages:
+  - prepare
+  - build
+  - deploy
+
+install_dependencies:
+  stage: prepare
+  before_script:
+    - echo 'before script'
+  script:
+    - echo 'script'
+
+build-prod:
+  only:
+    - /^release/
+  stage: build
+  script:
+    - echo 'script'
+
+deploy-prod:
+  stage: deploy
+  script:
+    - echo 'script'
+
+

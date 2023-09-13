@@ -1,0 +1,82 @@
+body {
+  font-family: Comfortaa, Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+html,
+body {
+  height: unset;
+  width: unset;
+}
+
+.play-video.text-center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.play.rounded-circle.btn-gradient-purple.btn-glow.video-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-area .counter-content .crypto-logo {
+  background: none;
+}
+
+.counter-area .logo-wrapper .crypto-logo .crypto-logo-img {
+  top: unset;
+  left: unset;
+}
+
+.about .content-area .play-video {
+  position: relative;
+  top: 0;
+  left: 0;
+  -webkit-transform: none;
+  transform: none;
+}
+
+.about .content-area .play-video .play {
+  position: relative;
+}
+
+.about .content-area .play-video .play i {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+
+.crypto-logo {
+  position: relative;
+}
+
+@media (max-width: 575.98px) {
+  .brand-text {
+    display: none;
+  }
+
+  .counter-area .logo-wrapper {
+    overflow: hidden;
+    width: 15rem;
+    height: 15rem;
+    background-color: #ffffff;
+    border-radius: 15rem;
+  }
+
+  .move-first {
+    text-align: center;
+    text-align: -webkit-center;
+  }
+
+  #navbarCollapse {
+    background-color: #194089;
+  }
+
+  /* .counter-area .logo-wrapper .crypto-logo .crypto-logo-img{
+    left: 17%;
+    top: 14%;
+    width: 14em;
+  } */
+}

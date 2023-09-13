@@ -1,0 +1,19 @@
+.ant-modal-body {
+    background-color: #1a4089;
+    color: white;
+}
+.ant-modal-body p {
+    color: white;
+}
+.ant-slider-mark-text {
+    color: white !important;
+}
+.ant-modal-header {
+    background-color: #16387b !important;
+}
+.ant-modal-title {
+    color: white !important;
+}
+.ant-modal-footer {
+    background-color: #1a4089 !important;
+}

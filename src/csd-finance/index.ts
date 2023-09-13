@@ -1,0 +1,1 @@
+export { CryptoScamDefenceFinance as default } from './CryptoScamDefenceFinance';
